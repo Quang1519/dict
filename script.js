@@ -122,7 +122,8 @@ class enen_Cambridge {
     }
 
     async findYoudao(word) {
-        if (!word) return [];
+        //if (!word) return [];
+        return [];
 
         let base = 'https://dict.youdao.com/w/';
         let url = base + encodeURIComponent(word);
